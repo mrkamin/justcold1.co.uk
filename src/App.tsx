@@ -12,7 +12,7 @@ function App() {
       <Grid templateAreas={`"navup navup""navdown navdown""main main"`}>
         <GridItem area='navup' bg='blue.solid'><NavBar /></GridItem>
         <GridItem area='navdown' bg='gray.900'><NavDown /></GridItem>
-        <GridItem area='main' bg='dodgerblue'><Home /></GridItem>
+        <GridItem area='main'><Home /></GridItem>
       </Grid>
       </>
   )

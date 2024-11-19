@@ -13,11 +13,11 @@ const ImageSlider = ({ images }) => {
   };
 
   return (
-    <Box position="relative"  overflow="hidden" h={400}>
+    <Box position="relative"  overflow="hidden" h={`{40}%`} padding={0} margin={0} >
       <Box display="flex" transition="transform 0.5s ease" transform={`translateX(-${currentIndex * 100}%)`}>
         {images.map((src, index) => (
           <Box key={index} minW="100%">
-            <Image src={src} alt={`Slide ${index}`} boxSize="100%" objectFit="cover" h={400} />
+            <Image src={src} alt={`Slide ${index}`} boxSize="100%" objectFit="cover" h={`{50}%`} />
           </Box>
         ))}
       </Box>
