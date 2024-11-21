@@ -4,7 +4,9 @@ import ImageTwo from '../assets/1 (2).jpg'
 import ImageThree from '../assets/1 (3).jpg'
 import ImageFour from '../assets/IQF Freezers-1.jpg'
 import ImageFive from '../assets/cooling-units-1.jpg'
-import { Flex, Grid, HStack, Icon, Text } from "@chakra-ui/react"
+import { Flex, Grid, GridItem, HStack, Icon, Text } from "@chakra-ui/react"
+import CardItem from "./CardItem"
+
 
 const images = [
     ImageOne,
@@ -16,8 +18,12 @@ const images = [
 
 const Home = () => {
   return (
+    
     <>
-      <ImageSlider images={images} />
+     
+      <ImageSlider images={images}  />
+      
+      
       <Flex justify="space-between" bg="blue.600" marginX={10} padding="5" borderBottomRadius={10}>
         <HStack>
           <Icon fontSize="40px" color="fg.inverted">
@@ -91,7 +97,9 @@ const Home = () => {
           </Grid>
         </HStack>
       </Flex>
-    </>
+      <CardItem />
+      </>
+    
   )
 }
 

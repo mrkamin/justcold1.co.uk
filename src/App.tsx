@@ -10,9 +10,9 @@ function App() {
   return (
       <>
       <Grid templateAreas={`"navup navup""navdown navdown""main main"`}>
-        <GridItem area='navup' bg='blue.solid'><NavBar /></GridItem>
+        <GridItem area='navup' bg='rgb(37, 99, 235)'><NavBar /></GridItem>
         <GridItem area='navdown' bg='gray.900'><NavDown /></GridItem>
-        <GridItem area='main'><Home /></GridItem>
+        <GridItem area='main' ><Home /></GridItem>
       </Grid>
       </>
   )
