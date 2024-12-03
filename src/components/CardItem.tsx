@@ -87,7 +87,6 @@ const CardItem = () => {
         <div className="gridItems-one flex" >
           <div>
             <h1>MEAT RAIL</h1>
-            
           </div>
           <div className="flex">
             <p>Ordernow  </p>
@@ -99,10 +98,7 @@ const CardItem = () => {
           <Image src={CardImage} alt={'image'} height={200} width={1000} objectFit="cover" />
         </div>
       </div>
-      
-      
-    </div>
-    
+    </div> 
   )
 }
 

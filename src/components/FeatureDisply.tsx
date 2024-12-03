@@ -1,4 +1,4 @@
-import { Flex, Grid, GridItem, HStack, Icon, Text } from "@chakra-ui/react"
+import { Flex, Grid, HStack, Icon, Text } from "@chakra-ui/react"
 const FeatureDisply = () => {
   return (
     <div>

@@ -7,8 +7,6 @@ import ImageFive from '../assets/cooling-units-1.jpg'
 import CardItem from "./CardItem"
 import FeatureDisply from "./FeatureDisply"
 
-
-
 const images = [
     ImageOne,
     ImageTwo,
@@ -19,17 +17,11 @@ const images = [
 
 const Home = () => {
   return (
-    
     <>
-     
       <ImageSlider images={images}  />
-      
       <FeatureDisply />
-      
       <CardItem />
-      
-      </>
-    
+    </>
   )
 }
 

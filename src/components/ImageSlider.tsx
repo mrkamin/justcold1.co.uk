@@ -1,7 +1,11 @@
-import { useState } from "react";
-import { Box, Image, Button, HStack, useBreakpointValue } from "@chakra-ui/react";
+import { Key, useState } from "react";
+import { Box, Image, Button, HStack} from "@chakra-ui/react";
 
-const ImageSlider = ({ images }) => {
+type ImageSliderProps = {
+  images: string[];
+}
+
+const ImageSlider = ({images}: ImageSliderProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
@@ -15,7 +19,7 @@ const ImageSlider = ({ images }) => {
   return (
     <Box position="relative"  overflow="hidden" h={`{28}%`} >
       <Box display="flex" transition="transform 0.5s ease" transform={`translateX(-${currentIndex * 100}%)`}>
-        {images.map((src, index) => (
+        {images.map((src: string | undefined, index: Key | null | undefined) => (
           <Box key={index} minW="100%">
             <Image src={src} alt={`Slide ${index}`} boxSize="100%" objectFit="cover" h={`{47}%`} />
           </Box>
