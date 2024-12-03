@@ -1,5 +1,5 @@
 import { Flex, Grid, GridItem, HStack, Icon, Text } from "@chakra-ui/react"
-const featureDisply = () => {
+const FeatureDisply = () => {
   return (
     <div>
       <Flex justify="space-between" bg="blue.600" marginX={10} padding="5" borderBottomRadius={10}>
@@ -79,4 +79,4 @@ const featureDisply = () => {
   )
 }
 
-export default featureDisply
+export default FeatureDisply
