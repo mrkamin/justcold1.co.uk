@@ -36,3 +36,8 @@
     border-radius: 0 0 0 150PX;
     overflow: hidden;
 }
+
+.bgblue {
+    background-color: rgb(37, 99, 235);
+    border-radius: 10px;
+}

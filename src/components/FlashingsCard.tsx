@@ -1,8 +1,9 @@
+import { Text } from "@chakra-ui/react"
 
 const FlashingsCard = () => {
   return (
-    <div>
-      
+    <div className="1">
+      <Text>Blue</Text>
     </div>
   )
 }

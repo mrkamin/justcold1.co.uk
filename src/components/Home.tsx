@@ -6,6 +6,7 @@ import ImageFour from '../assets/IQF Freezers-1.jpg'
 import ImageFive from '../assets/cooling-units-1.jpg'
 import CardItem from "./CardItem"
 import FeatureDisply from "./FeatureDisply"
+import FlashPvcComp from "./FlashPvcComp"
 
 const images = [
     ImageOne,
@@ -21,6 +22,7 @@ const Home = () => {
       <ImageSlider images={images}  />
       <FeatureDisply />
       <CardItem />
+      <FlashPvcComp />
     </>
   )
 }
