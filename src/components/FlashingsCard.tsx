@@ -8,13 +8,13 @@ const FlashingsCard = () => {
       <Text>MOST POPULAR ITEMS IN METAL FLASHINGS</Text>
       <Grid templateColumns="repeat(3, 1fr)" gap={3} paddingTop={5}>
         <GridItem>
-          <Image src={ImageOne} alt="ImageOne" borderRadius={5} objectFit="cover" h={`{100}%`}/>
+          <Image src={ImageOne} alt="ImageOne" borderRadius={5}  h={`{100}%`}/>
         </GridItem>
         <GridItem>
-          <Image src={ImageTwo} alt="ImageTwo" borderRadius={5} objectFit="cover" h={`{100}%`}/>
+          <Image src={ImageTwo} alt="ImageTwo" borderRadius={5}  h={`{100}%`}/>
         </GridItem>
         <GridItem>
-          <Image src={ImageThree} alt="ImageThree" borderRadius={5} objectFit="cover" h={`{100}%`}/>
+          <Image src={ImageThree} alt="ImageThree" borderRadius={5}  h={`{100}%`}/>
         </GridItem>
         <GridItem>
           <Image src={ImageOne} alt="ImageOne" borderRadius={5} h={`{100}%`}/>

@@ -1,5 +1,10 @@
 import { Image } from "@chakra-ui/react"
 import CardImage from '../assets/1 (1).jpg'
+import CardImageOne from '../assets/1 (2).jpg'
+import CardImageTwo from '../assets/1 (3).jpg'
+import CardImageThree from '../assets/1 (1).jpg'
+import CardImageFour from '../assets/1 (2).jpg'
+import CardImageFive from '../assets/1 (3).jpg'
 
 const CardItem = () => {
   return (
@@ -16,7 +21,7 @@ const CardItem = () => {
           </div>
         </div>
         <div className="gridItems-two">
-          <Image src={CardImage} alt={'image'} height={200} width={1000} objectFit="cover" />
+          <Image src={CardImageOne} alt={'image'} height={200} width={1000} objectFit="cover" />
         </div>
       </div>
       <div className="gridItems flex">
@@ -48,7 +53,7 @@ const CardItem = () => {
         </div>
         <div className="gridItems-two">
           
-          <Image src={CardImage} alt={'image'} height={200} width={1000} objectFit="cover" />
+          <Image src={CardImageFour} alt={'image'} height={200} width={1000} objectFit="cover" />
         </div>
       </div>
       <div className="gridItems flex">
@@ -64,7 +69,7 @@ const CardItem = () => {
         </div>
         <div className="gridItems-two">
           
-          <Image src={CardImage} alt={'image'} height={200} width={1000} objectFit="cover" />
+          <Image src={CardImageTwo} alt={'image'} height={200} width={1000} objectFit="cover" />
         </div>
       </div>
       <div className="gridItems flex">
@@ -80,7 +85,7 @@ const CardItem = () => {
         </div>
         <div className="gridItems-two">
           
-          <Image src={CardImage} alt={'image'} height={200} width={1000} objectFit="cover" />
+          <Image src={CardImageThree} alt={'image'} height={200} width={1000} objectFit="cover" />
         </div>
       </div>
       <div className="gridItems flex">
@@ -95,7 +100,7 @@ const CardItem = () => {
         </div>
         <div className="gridItems-two">
           
-          <Image src={CardImage} alt={'image'} height={200} width={1000} objectFit="cover" />
+          <Image src={CardImageFive} alt={'image'} height={200} width={1000} objectFit="cover" />
         </div>
       </div>
     </div> 
