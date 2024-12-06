@@ -21,7 +21,7 @@ const CardItem = () => {
           </div>
         </div>
         <div className="gridItems-two">
-          <Image src={CardImageOne} alt={'image'} height={200} width={1000} objectFit="cover" />
+          <Image src={CardImageOne} alt={'image'} height={200} width={`{75}%`} />
         </div>
       </div>
       <div className="gridItems flex">
@@ -37,7 +37,7 @@ const CardItem = () => {
         </div>
         <div className="gridItems-two">
           
-          <Image src={CardImage} alt={'image'} height={200} width={1000} objectFit="cover" />
+          <Image src={CardImage} alt={'image'} height={200} width={`{75}%`} />
         </div>
       </div>
       <div className="gridItems flex">
@@ -53,7 +53,7 @@ const CardItem = () => {
         </div>
         <div className="gridItems-two">
           
-          <Image src={CardImageFour} alt={'image'} height={200} width={1000} objectFit="cover" />
+          <Image src={CardImageFour} alt={'image'} height={200} width={`{75}%`} />
         </div>
       </div>
       <div className="gridItems flex">
@@ -69,7 +69,7 @@ const CardItem = () => {
         </div>
         <div className="gridItems-two">
           
-          <Image src={CardImageTwo} alt={'image'} height={200} width={1000} objectFit="cover" />
+          <Image src={CardImageTwo} alt={'image'} height={200} width={`{75}%`} />
         </div>
       </div>
       <div className="gridItems flex">
@@ -85,7 +85,7 @@ const CardItem = () => {
         </div>
         <div className="gridItems-two">
           
-          <Image src={CardImageThree} alt={'image'} height={200} width={1000} objectFit="cover" />
+          <Image src={CardImageThree} alt={'image'} height={200} width={`{75}%`} />
         </div>
       </div>
       <div className="gridItems flex">
@@ -100,7 +100,7 @@ const CardItem = () => {
         </div>
         <div className="gridItems-two">
           
-          <Image src={CardImageFive} alt={'image'} height={200} width={1000} objectFit="cover" />
+          <Image src={CardImageFive} alt={'image'} height={200} width={`{75}%`} />
         </div>
       </div>
     </div> 
