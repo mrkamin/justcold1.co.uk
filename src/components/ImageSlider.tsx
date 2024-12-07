@@ -17,11 +17,11 @@ const ImageSlider = ({images}: ImageSliderProps) => {
   };
 
   return (
-    <Box position="relative"  overflow="hidden" h={`{28}%`} >
-      <Box display="flex" transition="transform 0.5s ease" transform={`translateX(-${currentIndex * 100}%)`}>
+    <Box position="relative"  overflow="hidden" h={`{100}%`}  >
+      <Box display="flex" transition="transform 0.5s ease"  h={`{100}%`} transform={`translateX(-${currentIndex * 100}%)`}>
         {images.map((src: string | undefined, index: Key | null | undefined) => (
           <Box key={index} minW="100%">
-            <Image src={src} alt={`Slide ${index}`} boxSize="100%" objectFit="cover" h={`{47}%`} />
+            <Image src={src} alt={`Slide ${index}`} boxSize="100%" />
           </Box>
         ))}
       </Box>

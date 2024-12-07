@@ -30,7 +30,7 @@
 }
 
 .gridItems-two {
-    position: absolute;
+    position: absolute; 
     top: 0px;
     left: 150px;
     border-radius: 0 0 0 150PX;
@@ -39,6 +39,6 @@
 }
 
 .bgblue {
-    background-color: rgb(37, 99, 235);
+    background-color: rgba(255, 255, 255, 0.479);
     border-radius: 10px;
 }

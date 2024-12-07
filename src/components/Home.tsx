@@ -7,6 +7,8 @@ import ImageFive from '../assets/cooling-units-1.jpg'
 import CardItem from "./CardItem"
 import FeatureDisply from "./FeatureDisply"
 import FlashPvcComp from "./FlashPvcComp"
+import { Grid, GridItem } from "@chakra-ui/react"
+import RailCards from "./RailCards"
 
 const images = [
     ImageOne,
@@ -18,12 +20,21 @@ const images = [
 
 const Home = () => {
   return (
-    <>
+    <Grid templateColumns="repate(1fr)" h={`{100}%`}>
+      <GridItem h={434}>
       <ImageSlider images={images}  />
+      </GridItem>
+     
+      <GridItem>
       <FeatureDisply />
-      <CardItem />
-      <FlashPvcComp />
-    </>
+      </GridItem>
+      
+      <GridItem><CardItem /></GridItem>
+      
+      <GridItem><FlashPvcComp /></GridItem>
+      <GridItem><RailCards /></GridItem>
+      
+    </Grid>
   )
 }
 

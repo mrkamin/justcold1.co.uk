@@ -18,41 +18,41 @@ const FlashingsCard = () => {
         <GridItem>
           <Flex direction="column">
           <Image src={ImageTwo} alt="ImageOne" borderRadius={5} h={250} />
-          <Text>External Chequer Plate Angles</Text>
-          <Text>25mm x 25mm</Text>
-          <Text>£6.50 - £9.50 + VAT</Text>
+          <Text>Internal Chequer Plate Angles</Text>
+          <Text>50mm x 50mm</Text>
+          <Text>£8.50 - £16.50 + VAT</Text>
           </Flex>
         </GridItem>
         <GridItem>
           <Flex direction="column">
           <Image src={ImageThree} alt="ImageOne" borderRadius={5} h={250} />
-          <Text>External Chequer Plate Angles</Text>
-          <Text>25mm x 25mm</Text>
-          <Text>£6.50 - £9.50 + VAT</Text>
+          <Text>Checker Plate Wall Protection</Text>
+          <Text>Kick Plate 1000mm Length</Text>
+          <Text>£4.00 - £72.00 + VAT</Text>
           </Flex>
         </GridItem>
         <GridItem>
           <Flex direction="column">
           <Image src={ImageOne} alt="ImageOne" borderRadius={5} h={250} />
-          <Text>External Chequer Plate Angles</Text>
-          <Text>25mm x 25mm</Text>
-          <Text>£6.50 - £9.50 + VAT</Text>
+          <Text>Stainless Steel Brush Polished</Text>
+          <Text>U-Channel 30mm x 30mm - 0.9mm Thick</Text>
+          <Text>£7.90 - £17.60 + VAT</Text>
           </Flex>
         </GridItem>
         <GridItem>
           <Flex direction="column">
           <Image src={ImageTwo} alt="ImageOne" borderRadius={5} h={250} />
-          <Text>External Chequer Plate Angles</Text>
-          <Text>25mm x 25mm</Text>
-          <Text>£6.50 - £9.50 + VAT</Text>
+          <Text>Stainless Steel Brush Polished</Text>
+          <Text>Angle 30mm x 30mm -0.9mm thick</Text>
+          <Text>£3.90 - £16.50 + VAT</Text>
           </Flex>
         </GridItem>
         <GridItem>
           <Flex direction="column">
           <Image src={ImageThree} alt="ImageOne" borderRadius={5}h={250}  />
-          <Text>External Chequer Plate Angles</Text>
-          <Text>25mm x 25mm</Text>
-          <Text>£6.50 - £9.50 + VAT</Text>
+          <Text>Stainless Steel Brush Polished</Text>
+          <Text>Angle 30mm x 75mm -0.9mm thick</Text>
+          <Text>£5.75 - £23.00 + VAT</Text>
           </Flex>
         </GridItem>
       </Grid>
