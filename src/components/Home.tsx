@@ -9,6 +9,7 @@ import FeatureDisply from "./FeatureDisply"
 import FlashPvcComp from "./FlashPvcComp"
 import { Grid, GridItem } from "@chakra-ui/react"
 import RailCards from "./RailCards"
+import FixingsCards from "./FixingsCards"
 
 const images = [
     ImageOne,
@@ -33,6 +34,9 @@ const Home = () => {
       
       <GridItem><FlashPvcComp /></GridItem>
       <GridItem><RailCards /></GridItem>
+      <GridItem>
+        <FixingsCards />
+      </GridItem>
       
     </Grid>
   )
