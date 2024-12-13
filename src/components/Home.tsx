@@ -10,6 +10,7 @@ import FlashPvcComp from "./FlashPvcComp"
 import { Grid, GridItem } from "@chakra-ui/react"
 import RailCards from "./RailCards"
 import FixingsCards from "./FixingsCards"
+import SellingProducts from "./SellingProducts"
 
 const images = [
     ImageOne,
@@ -36,6 +37,9 @@ const Home = () => {
       <GridItem><RailCards /></GridItem>
       <GridItem>
         <FixingsCards />
+      </GridItem>
+      <GridItem>
+        <SellingProducts />
       </GridItem>
       
     </Grid>
