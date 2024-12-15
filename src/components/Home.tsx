@@ -11,6 +11,7 @@ import { Grid, GridItem } from "@chakra-ui/react"
 import RailCards from "./RailCards"
 import FixingsCards from "./FixingsCards"
 import SellingProducts from "./SellingProducts"
+import YouTube from "./YouTube"
 
 const images = [
     ImageOne,
@@ -40,6 +41,9 @@ const Home = () => {
       </GridItem>
       <GridItem>
         <SellingProducts />
+      </GridItem>
+      <GridItem>
+        <YouTube />
       </GridItem>
       
     </Grid>

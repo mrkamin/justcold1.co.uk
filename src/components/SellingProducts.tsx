@@ -8,7 +8,9 @@ const SellingProducts = () => {
         <Grid templateColumns="repeat(3, 1fr)" gap={10}>
         <GridItem>
         <Flex gap={5} align="center">
-            <Image src={ImageOne} alt='ImageOne' overflow="hidden" width={`{50}%`} />
+            <Image src={ImageOne} alt='ImageOne' overflow="hidden" width={`{50}%`}
+            
+             />
             <Box>
             <Text>Ceiling Suspension</Text>
             <Text>Aluminium T Profile</Text>
@@ -19,7 +21,9 @@ const SellingProducts = () => {
         </GridItem>
         <GridItem>
         <Flex gap={5} align="center">
-            <Image src={ImageOne} alt='ImageOne' overflow="hidden" width={`{50}%`}/>
+            <Image src={ImageOne} alt='ImageOne' overflow="hidden" width={`{50}%`}
+            
+            />
             <Box>
             <Text>Ceiling Suspension</Text>
             <Text>Aluminium T Profile</Text>
