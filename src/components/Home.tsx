@@ -12,6 +12,8 @@ import RailCards from "./RailCards"
 import FixingsCards from "./FixingsCards"
 import SellingProducts from "./SellingProducts"
 import YouTube from "./YouTube"
+import Lighting from "./Lighting"
+import BannerHorezental from "./BannerHorezental"
 
 const images = [
     ImageOne,
@@ -44,6 +46,12 @@ const Home = () => {
       </GridItem>
       <GridItem>
         <YouTube />
+      </GridItem>
+      <GridItem>
+        <Lighting />
+      </GridItem>
+      <GridItem>
+        <BannerHorezental />
       </GridItem>
       
     </Grid>
