@@ -14,6 +14,7 @@ import SellingProducts from "./SellingProducts"
 import YouTube from "./YouTube"
 import Lighting from "./Lighting"
 import BannerHorezental from "./BannerHorezental"
+import Footer from "./Footer"
 
 const images = [
     ImageOne,
@@ -52,6 +53,9 @@ const Home = () => {
       </GridItem>
       <GridItem>
         <BannerHorezental />
+      </GridItem>
+      <GridItem>
+        <Footer />
       </GridItem>
       
     </Grid>
