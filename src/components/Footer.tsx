@@ -1,5 +1,6 @@
 import { Box, Flex, Grid, GridItem, Text } from '@chakra-ui/react'
 import FooterLeftSide from './FooterLeftSide'
+import FooterRigthSide from './FooterRigthSide'
 
 const Footer = () => {
   return (
@@ -14,8 +15,7 @@ const Footer = () => {
                 <FooterLeftSide />
               </GridItem>
               <GridItem colSpan={2}>
-
-                <Text color="#fff">Footer</Text>
+                <FooterRigthSide />
               </GridItem>
             </Grid>
            </Box>
