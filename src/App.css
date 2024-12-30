@@ -1,42 +1,49 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 40px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.flex {
+    display: flex;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gridItems {
+    position: relative;
+    height: 200px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: rgb(37, 99, 235);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.gridItems-one {
+    color: #fff;
+    flex-direction: column;
+    background-color: rgb(37, 99, 235);
+    padding: 20px;
+    aspect-ratio: 1 /1;
+    overflow: hidden;
+    justify-content: space-between;
 }
 
-.card {
-  padding: 2em;
+.gridItems-two {
+    position: absolute; 
+    top: 0px;
+    left: 150px;
+    border-radius: 0 0 0 150PX;
+    overflow: hidden;
+    width: 100%;
 }
 
-.read-the-docs {
-  color: #888;
+.bgblue {
+    background-color: rgb(37, 99, 235);
+    border-radius: 10px;
+}
+
+.youtube {
+    
+    border-radius: 1rem;
 }
