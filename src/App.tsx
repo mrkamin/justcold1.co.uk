@@ -1,7 +1,7 @@
 import { Grid, GridItem } from '@chakra-ui/react'
 import './App.css'
-import NavBar from './components/NavBar'
-import NavDown from './components/NavDown'
+import NavBar from './components/navbar/NavBar'
+import NavDown from './components/navbar/NavDown'
 import Home from './components/Home'
 
 function App() {
