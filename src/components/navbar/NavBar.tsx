@@ -1,4 +1,4 @@
-import { Button, Flex, Grid, GridItem, HStack, IconButton, Input, Text } from "@chakra-ui/react"
+import { Button, Flex, Grid, GridItem, HStack, IconButton, Input, Link, Text } from "@chakra-ui/react"
 import { SvgLogo } from "../Svg"
 import { LuSearch } from "react-icons/lu"
 
@@ -6,15 +6,15 @@ const NavBar = () => {
   return (
     <div>
        <Flex gap="4" justify="space-between" padding='2'>
-          <SvgLogo />
+          <Link href="/"><SvgLogo /></Link> 
           <HStack gap='10'>
            <Grid >
               <GridItem>
                 <HStack padding='10px' gap='10'>
-                  <Text color="fg.inverted">HOME</Text>
-                  <Text color="fg.inverted">PRODUCTS</Text>
-                  <Text color="fg.inverted">GUIDE</Text>
-                  <Text color="fg.inverted">CONTACTUS</Text>
+                 <Link href="/"><Text color="fg.inverted">HOME</Text></Link>
+                 <Link href="product"><Text color="fg.inverted">PRODUCTS</Text></Link>
+                 <Link href="guide"><Text color="fg.inverted">GUIDE</Text></Link>
+                 <Link href="contact-us"><Text color="fg.inverted">CONTACTUS</Text></Link>
                 </HStack>
               </GridItem>
               <GridItem>
