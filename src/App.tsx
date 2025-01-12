@@ -7,6 +7,7 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import Product from './Routing/Product'
 import Guide from './Routing/Guide'
 import ContactUs from './Routing/ContactUs'
+import RequestQuote from './Routing/RequestQuote'
 
 function App() {
   
@@ -23,6 +24,7 @@ function App() {
           <Route path='/product' element={<GridItem area='main' ><Product /></GridItem>} />
           <Route path='/guide' element={<GridItem area='main' ><Guide /></GridItem>} />
           <Route path='/contact-us' element={<GridItem area='main' ><ContactUs /></GridItem>} />
+          <Route path='/req-a-quote' element={<GridItem area='main' ><RequestQuote /></GridItem>} />
         </Routes>
       </Grid>
       </Router>

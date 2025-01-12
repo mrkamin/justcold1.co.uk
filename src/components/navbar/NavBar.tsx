@@ -18,7 +18,7 @@ const NavBar = () => {
                 </HStack>
               </GridItem>
               <GridItem>
-                <Button>REQUEST A QUOTE</Button>
+                <Link href="req-a-quote"><Button>REQUEST A QUOTE</Button></Link>
               </GridItem>
            </Grid>
           <HStack gap='0'>
