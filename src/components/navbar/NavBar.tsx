@@ -1,5 +1,5 @@
 import { Button, Flex, Grid, GridItem, HStack, IconButton, Input, Link, Text } from "@chakra-ui/react"
-import { SvgLogo } from "../Svg"
+import { SvgLogo } from "../../Svg"
 import { LuSearch } from "react-icons/lu"
 
 const NavBar = () => {

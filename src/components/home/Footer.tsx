@@ -1,10 +1,10 @@
 import { Box, Flex, Grid, GridItem, HStack, Image, Text } from '@chakra-ui/react'
 import FooterLeftSide from './FooterLeftSide'
 import FooterRigthSide from './FooterRigthSide'
-import ImageOne from './assets/Footer/2.png'
-import ImageTwo from './assets/Footer/3.jpg'
-import ImageThree from './assets/Footer/4.jpg'
-import ImageFoure from './assets/Footer/5.jpg'
+import ImageOne from '../assets/Footer/2.png'
+import ImageTwo from '../assets/Footer/3.jpg'
+import ImageThree from '../assets/Footer/4.jpg'
+import ImageFoure from '../assets/Footer/5.jpg'
 
 const Footer = () => {
   return (

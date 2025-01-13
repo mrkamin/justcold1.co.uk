@@ -1,7 +1,7 @@
 import { Flex, Grid, GridItem, Image, Text } from "@chakra-ui/react"
-import ImageOne from './assets/1 (1).jpg'
-import ImageTwo from './assets/1 (2).jpg'
-import ImageThree from './assets/1 (3).jpg'
+import ImageOne from '../assets/1 (1).jpg'
+import ImageTwo from '../assets/1 (2).jpg'
+import ImageThree from '../assets/1 (3).jpg'
 const FlashingsCard = () => {
   return (
     <div>

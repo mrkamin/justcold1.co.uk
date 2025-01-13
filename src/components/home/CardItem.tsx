@@ -1,10 +1,10 @@
 import { Image } from "@chakra-ui/react"
-import CardImage from './assets/1 (1).jpg'
-import CardImageOne from './assets/1 (2).jpg'
-import CardImageTwo from './assets/1 (3).jpg'
-import CardImageThree from './assets/1 (1).jpg'
-import CardImageFour from './assets/1 (2).jpg'
-import CardImageFive from './assets/1 (3).jpg'
+import CardImage from '../assets/1 (1).jpg'
+import CardImageOne from '../assets/1 (2).jpg'
+import CardImageTwo from '../assets/1 (3).jpg'
+import CardImageThree from '../assets/1 (1).jpg'
+import CardImageFour from '../assets/1 (2).jpg'
+import CardImageFive from '../assets/1 (3).jpg'
 
 const CardItem = () => {
   return (

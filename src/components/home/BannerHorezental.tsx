@@ -1,5 +1,5 @@
 import { Flex, Image } from '@chakra-ui/react'
-import ImageOne from './assets/banner-horizantal-copy.jpg'
+import ImageOne from '../assets/banner-horizantal-copy.jpg'
 
 const BannerHorezental = () => {
   return (

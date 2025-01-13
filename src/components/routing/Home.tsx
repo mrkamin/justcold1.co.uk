@@ -4,18 +4,18 @@ import ImageTwo from '../assets/1 (2).jpg'
 import ImageThree from '../assets/1 (3).jpg'
 import ImageFour from '../assets/IQF Freezers-1.jpg'
 import ImageFive from '../assets/cooling-units-1.jpg'
-import CardItem from "../CardItem"
-import FeatureDisply from "../FeatureDisply"
-import FlashPvcComp from "../FlashPvcComp"
+import CardItem from "../home/CardItem"
+import FeatureDisply from "../home/FeatureDisply"
+import FlashPvcComp from "../home/FlashPvcComp"
 import { Grid, GridItem } from "@chakra-ui/react"
-import RailCards from "../RailCards"
-import FixingsCards from "../FixingsCards"
-import SellingProducts from "../SellingProducts"
-import YouTube from "../YouTube"
-import Lighting from "../Lighting"
-import BannerHorezental from "../BannerHorezental"
-import Footer from "../Footer"
-import ImageSlider from '../ImageSlider'
+import RailCards from "../home/RailCards"
+import FixingsCards from "../home/FixingsCards"
+import SellingProducts from "../home/SellingProducts"
+import YouTube from "../home/YouTube"
+import Lighting from "../home/Lighting"
+import BannerHorezental from "../home/BannerHorezental"
+import Footer from "../home/Footer"
+import ImageSlider from '../home/ImageSlider'
 
 const images = [
     ImageOne,
