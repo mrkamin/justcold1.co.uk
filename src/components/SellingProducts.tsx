@@ -1,5 +1,5 @@
 import { Box, Flex, Grid, GridItem, Image, Text } from '@chakra-ui/react'
-import ImageOne from '../assets/Meat Rail.png'
+import ImageOne from './assets/Meat Rail.png'
 
 const SellingProducts = () => {
   return (

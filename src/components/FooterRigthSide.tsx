@@ -1,5 +1,5 @@
 import { Box, Flex, Grid, GridItem, Image, Text } from '@chakra-ui/react'
-import ImageOne from '../assets/Footer/1.png'
+import ImageOne from './assets/Footer/1.png'
 
 const FooterRigthSide = () => {
   return (

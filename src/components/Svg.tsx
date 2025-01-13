@@ -145,7 +145,6 @@ export const SvgLogo = () => (
                                       y="0"
                                       viewBox="35.92844759481371 18.940542664194233 440.03725311397386 474.0272014602825"
                                       style={{
-                                        enablebackground: "new 0 0 512 512",
                                       }}
                                       xmlSpace="preserve"
                                       height="62.048009000305754"

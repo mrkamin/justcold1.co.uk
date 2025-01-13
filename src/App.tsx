@@ -2,12 +2,12 @@ import { Grid, GridItem } from '@chakra-ui/react'
 import './App.css'
 import NavBar from './components/navbar/NavBar'
 import NavDown from './components/navbar/NavDown'
-import Home from './Routing/Home'
+import Home from './components/routing/Home'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
-import Product from './Routing/Product'
-import Guide from './Routing/Guide'
-import ContactUs from './Routing/ContactUs'
-import RequestQuote from './Routing/RequestQuote'
+import Product from './components/routing/Product'
+import Guide from './components/routing/Guide'
+import ContactUs from './components/routing/ContactUs'
+import RequestQuote from './components/routing/RequestQuote'
 
 function App() {
   

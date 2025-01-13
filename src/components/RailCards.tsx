@@ -1,7 +1,7 @@
 import { Box, Button,  Grid, GridItem, Image, Text } from "@chakra-ui/react"
-import ImageOne from '../assets/Meat Rail.png'
-import ImageTwo from '../assets/pressure-relief-valve.png'
-import ImageThree from '../assets/Nylon Fasteners.png'
+import ImageOne from './assets/Meat Rail.png'
+import ImageTwo from './assets/pressure-relief-valve.png'
+import ImageThree from './assets/Nylon Fasteners.png'
 
 const RailCards = () => {
   return (
