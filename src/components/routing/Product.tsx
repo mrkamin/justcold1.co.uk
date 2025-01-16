@@ -4,7 +4,7 @@ import Shop from '../products/Shop'
 
 const Product = () => {
   return (
-    <Grid templateColumns={'repeat(3, 1fr)'}>
+    <Grid templateColumns={'repeat(3, 1fr)'} padding={6}>
       <GridItem colSpan={1}>
         <Catagories />
       </GridItem>
