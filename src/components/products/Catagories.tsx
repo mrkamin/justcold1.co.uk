@@ -1,4 +1,5 @@
-import { Box, Button, Checkbox, Flex, For, HStack, MenuContent, MenuItem, MenuRoot, MenuTrigger, MenuTriggerItem, Stack, Text } from '@chakra-ui/react'
+import { Box, Button, Flex, HStack, Menu, MenuContent, MenuItem, MenuRoot, MenuTrigger, Text } from '@chakra-ui/react'
+import { BiChevronDown, BiChevronRight } from 'react-icons/bi'
 
 const Catagories = () => {
   return (
@@ -18,7 +19,17 @@ const Catagories = () => {
                         <input type='checkbox' defaultChecked />
                         <Text>Accessories</Text>
                       </HStack>
-                  
+                      <MenuRoot>
+                        <Flex direction='column'>
+                        <MenuTrigger asChild >         
+                          <BiChevronDown />                       
+                        </MenuTrigger>
+                        <MenuContent>
+                          <MenuItem value='new'>Option 1</MenuItem>
+                          <MenuItem value='newt'>Option 2</MenuItem>
+                        </MenuContent>
+                        </Flex>
+                      </MenuRoot>
                     </Flex>
                   </Box>
                 </Flex>
