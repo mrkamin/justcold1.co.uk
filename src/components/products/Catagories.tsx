@@ -14,9 +14,33 @@ const Catagories = () => {
               <Box>
                 <Flex direction='column'>
                   <Box>
+                    <Flex justify='space-between' >
+                      <HStack>
+                        <input type='checkbox'  />
+                        <Text>Accessories</Text>
+                      </HStack>
+                      <Box position='relative'>
+                      <MenuRoot>
+                      
+                        <Flex direction='column'>
+                        <MenuTrigger asChild >         
+                          <BiChevronDown />                       
+                        </MenuTrigger>
+                        <MenuContent position='absolute' zIndex='1' top='100%' left='0'  >
+                          <MenuItem value='new'>Option 1</MenuItem>
+                          <MenuItem value='newt'>Option 2</MenuItem>
+                        </MenuContent>
+                        </Flex>
+                        
+                      </MenuRoot>
+                      </Box>
+                      
+                    </Flex>
+                  </Box>
+                  <Box>
                     <Flex justify='space-between'>
                       <HStack>
-                        <input type='checkbox' defaultChecked />
+                        <input type='checkbox'  />
                         <Text>Accessories</Text>
                       </HStack>
                       <MenuRoot>
@@ -32,6 +56,7 @@ const Catagories = () => {
                       </MenuRoot>
                     </Flex>
                   </Box>
+                  
                 </Flex>
               </Box>
             </Flex>
