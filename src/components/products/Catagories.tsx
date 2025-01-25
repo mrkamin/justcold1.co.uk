@@ -1,10 +1,11 @@
 import { Box, Flex, Grid, GridItem, HStack,  MenuContent, MenuItem, MenuRoot, MenuTrigger, Text } from '@chakra-ui/react'
 import { BiChevronDown } from 'react-icons/bi'
+import { RxDividerHorizontal } from 'react-icons/rx'
 
 const Catagories = () => {
   return (
     <Flex direction='column'  >
-      <Box borderWidth={1} padding={5} borderRadius={5} bg='ButtonFace'>
+      <Box divideX='20px' borderWidth={1} padding={5} borderRadius={5} bg='ButtonFace'>
         <Flex direction='column'>
           <Box>
             <Flex direction='column' gap={2}>
@@ -15,14 +16,14 @@ const Catagories = () => {
                 <Flex direction='column' gap={2}>
                   <Box >
                     
-                    <Grid templateColumns={'repeat(2, 1fr)'}>
-                      <GridItem >
+                    <Grid templateColumns={'repeat(3, 1fr)'}>
+                      <GridItem colSpan={2}>
                       <HStack>
                         <input type='checkbox' />
                         <Text>Accessories</Text>
                       </HStack>
                       </GridItem>
-                      <GridItem  >
+                      <GridItem colSpan={1} >
                       <Box >
                       <MenuRoot >
                       
@@ -30,9 +31,23 @@ const Catagories = () => {
                         <MenuTrigger asChild >         
                           <BiChevronDown />                       
                         </MenuTrigger>
-                        <MenuContent position='relative' left={0} top={2} w={`{200}%`}>
-                          <MenuItem value='new'>Option 1</MenuItem>
-                          <MenuItem value='newt'>Option 2</MenuItem>
+                        <MenuContent position='relative' left={0} top={2} w={`{300}%`}>
+                        <HStack>
+                        <input type='checkbox' />
+                        <Text>Ceiling Suspension</Text>
+                      </HStack>
+                      <HStack>
+                        <input type='checkbox' />
+                        <Text>Floor Mounting Blo...</Text>
+                      </HStack>
+                      <HStack>
+                        <input type='checkbox' />
+                        <Text>Pressure Relief Val...</Text>
+                      </HStack>
+                      <HStack>
+                        <input type='checkbox' />
+                        <Text>PVC SKirting</Text>
+                      </HStack>
                         </MenuContent>
                         </Flex>
                         
@@ -44,14 +59,27 @@ const Catagories = () => {
                   </Box>
                   <Box >
                     
-                    <Grid templateColumns={'repeat(2, 1fr)'}>
-                      <GridItem >
+                    <Grid templateColumns={'repeat(3, 1fr)'}>
+                      <GridItem colSpan={2}>
                       <HStack>
                         <input type='checkbox' />
-                        <Text>Accessories</Text>
+                        <Text>Channel Arm and Brac.....</Text>
                       </HStack>
                       </GridItem>
-                      <GridItem  >
+                     
+                    </Grid>
+                    
+                  </Box>
+                  <Box >
+                    
+                    <Grid templateColumns={'repeat(3, 1fr)'}>
+                      <GridItem colSpan={2}>
+                      <HStack>
+                        <input type='checkbox' />
+                        <Text>Checker Plates</Text>
+                      </HStack>
+                      </GridItem>
+                      <GridItem colSpan={1} >
                       <Box >
                       <MenuRoot >
                       
@@ -59,9 +87,23 @@ const Catagories = () => {
                         <MenuTrigger asChild >         
                           <BiChevronDown />                       
                         </MenuTrigger>
-                        <MenuContent position='relative' left={0} top={2} w={`{200}%`}>
-                          <MenuItem value='new'>Option 1</MenuItem>
-                          <MenuItem value='newt'>Option 2</MenuItem>
+                        <MenuContent position='relative' left={0} top={2} w={`{300}%`}>
+                        <HStack>
+                        <input type='checkbox' />
+                        <Text>Checker Plate</Text>
+                      </HStack>
+                      <HStack>
+                        <input type='checkbox' />
+                        <Text>Checker Plate Angles</Text>
+                      </HStack>
+                      <HStack>
+                        <input type='checkbox' />
+                        <Text>Checker Plate U-Pr...</Text>
+                      </HStack>
+                      <HStack>
+                        <input type='checkbox' />
+                        <Text>Checker Plate Wall...</Text>
+                      </HStack>
                         </MenuContent>
                         </Flex>
                         
@@ -73,14 +115,14 @@ const Catagories = () => {
                   </Box>
                   <Box >
                     
-                    <Grid templateColumns={'repeat(2, 1fr)'}>
-                      <GridItem >
+                    <Grid templateColumns={'repeat(3, 1fr)'}>
+                      <GridItem colSpan={2}>
                       <HStack>
                         <input type='checkbox' />
-                        <Text>Accessories</Text>
+                        <Text>cold Room Hinged Do...</Text>
                       </HStack>
                       </GridItem>
-                      <GridItem  >
+                      <GridItem colSpan={1} >
                       <Box >
                       <MenuRoot >
                       
@@ -88,9 +130,15 @@ const Catagories = () => {
                         <MenuTrigger asChild >         
                           <BiChevronDown />                       
                         </MenuTrigger>
-                        <MenuContent position='relative' left={0} top={2} w={`{200}%`}>
-                          <MenuItem value='new'>Option 1</MenuItem>
-                          <MenuItem value='newt'>Option 2</MenuItem>
+                        <MenuContent position='relative' left={0} top={2} w={`{300}%`}>
+                        <HStack>
+                        <input type='checkbox' />
+                        <Text>Chiller Hinged Doors</Text>
+                      </HStack>
+                      <HStack>
+                        <input type='checkbox' />
+                        <Text>Freezer Hinged Do...</Text>
+                      </HStack>
                         </MenuContent>
                         </Flex>
                         
@@ -102,14 +150,14 @@ const Catagories = () => {
                   </Box>
                   <Box >
                     
-                    <Grid templateColumns={'repeat(2, 1fr)'}>
-                      <GridItem >
+                    <Grid templateColumns={'repeat(3, 1fr)'}>
+                      <GridItem colSpan={2}>
                       <HStack>
                         <input type='checkbox' />
-                        <Text>Accessories</Text>
+                        <Text>Cold Room Sliding Door</Text>
                       </HStack>
                       </GridItem>
-                      <GridItem  >
+                      <GridItem colSpan={1} >
                       <Box >
                       <MenuRoot >
                       
@@ -117,38 +165,15 @@ const Catagories = () => {
                         <MenuTrigger asChild >         
                           <BiChevronDown />                       
                         </MenuTrigger>
-                        <MenuContent position='relative' left={0} top={2} w={`{200}%`}>
-                          <MenuItem value='new'>Option 1</MenuItem>
-                          <MenuItem value='newt'>Option 2</MenuItem>
-                        </MenuContent>
-                        </Flex>
-                        
-                      </MenuRoot>
-                      </Box>
-                      </GridItem>
-                    </Grid>
-                    
-                  </Box>
-                  <Box >
-                    
-                    <Grid templateColumns={'repeat(2, 1fr)'}>
-                      <GridItem >
+                        <MenuContent position='relative' left={0} top={2} w={`{300}%`}>
+                        <HStack>
+                        <input type='checkbox' />
+                        <Text>Chiller Sliding Door</Text>
+                      </HStack>
                       <HStack>
                         <input type='checkbox' />
-                        <Text>Accessories</Text>
+                        <Text>Freezer Sliding Door</Text>
                       </HStack>
-                      </GridItem>
-                      <GridItem  >
-                      <Box >
-                      <MenuRoot >
-                      
-                        <Flex direction='column' align='end' >
-                        <MenuTrigger asChild >         
-                          <BiChevronDown />                       
-                        </MenuTrigger>
-                        <MenuContent position='relative' left={0} top={2} w={`{200}%`}>
-                          <MenuItem value='new'>Option 1</MenuItem>
-                          <MenuItem value='newt'>Option 2</MenuItem>
                         </MenuContent>
                         </Flex>
                         
@@ -168,6 +193,9 @@ const Catagories = () => {
             
           </Box>
         </Flex>
+        <Box>
+       
+        </Box>
       </Box>
       <Box>
         <Text>Box TWO</Text>
