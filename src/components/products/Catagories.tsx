@@ -1,32 +1,36 @@
-import { Box, Button, Flex, HStack, Menu, MenuContent, MenuItem, MenuRoot, MenuTrigger, Text } from '@chakra-ui/react'
-import { BiChevronDown, BiChevronRight } from 'react-icons/bi'
+import { Box, Flex, Grid, GridItem, HStack,  MenuContent, MenuItem, MenuRoot, MenuTrigger, Text } from '@chakra-ui/react'
+import { BiChevronDown } from 'react-icons/bi'
 
 const Catagories = () => {
   return (
-    <Flex direction='column'>
-      <Box>
+    <Flex direction='column'  >
+      <Box borderWidth={1} padding={5} borderRadius={5} bg='ButtonFace'>
         <Flex direction='column'>
           <Box>
-            <Flex direction='column'>
+            <Flex direction='column' gap={2}>
               <Box>
               <Text>CATEGORIES</Text>
               </Box>
               <Box>
-                <Flex direction='column'>
-                  <Box>
-                    <Flex justify='space-between' >
+                <Flex direction='column' gap={2}>
+                  <Box >
+                    
+                    <Grid templateColumns={'repeat(2, 1fr)'}>
+                      <GridItem >
                       <HStack>
-                        <input type='checkbox'  />
+                        <input type='checkbox' />
                         <Text>Accessories</Text>
                       </HStack>
-                      <Box position='relative'>
-                      <MenuRoot>
+                      </GridItem>
+                      <GridItem  >
+                      <Box >
+                      <MenuRoot >
                       
-                        <Flex direction='column'>
+                        <Flex direction='column' align='end' >
                         <MenuTrigger asChild >         
                           <BiChevronDown />                       
                         </MenuTrigger>
-                        <MenuContent position='absolute' zIndex='1' top='100%' left='0'  >
+                        <MenuContent position='relative' left={0} top={2} w={`{200}%`}>
                           <MenuItem value='new'>Option 1</MenuItem>
                           <MenuItem value='newt'>Option 2</MenuItem>
                         </MenuContent>
@@ -34,27 +38,125 @@ const Catagories = () => {
                         
                       </MenuRoot>
                       </Box>
-                      
-                    </Flex>
+                      </GridItem>
+                    </Grid>
+                    
                   </Box>
-                  <Box>
-                    <Flex justify='space-between'>
+                  <Box >
+                    
+                    <Grid templateColumns={'repeat(2, 1fr)'}>
+                      <GridItem >
                       <HStack>
-                        <input type='checkbox'  />
+                        <input type='checkbox' />
                         <Text>Accessories</Text>
                       </HStack>
-                      <MenuRoot>
-                        <Flex direction='column'>
+                      </GridItem>
+                      <GridItem  >
+                      <Box >
+                      <MenuRoot >
+                      
+                        <Flex direction='column' align='end' >
                         <MenuTrigger asChild >         
                           <BiChevronDown />                       
                         </MenuTrigger>
-                        <MenuContent>
+                        <MenuContent position='relative' left={0} top={2} w={`{200}%`}>
                           <MenuItem value='new'>Option 1</MenuItem>
                           <MenuItem value='newt'>Option 2</MenuItem>
                         </MenuContent>
                         </Flex>
+                        
                       </MenuRoot>
-                    </Flex>
+                      </Box>
+                      </GridItem>
+                    </Grid>
+                    
+                  </Box>
+                  <Box >
+                    
+                    <Grid templateColumns={'repeat(2, 1fr)'}>
+                      <GridItem >
+                      <HStack>
+                        <input type='checkbox' />
+                        <Text>Accessories</Text>
+                      </HStack>
+                      </GridItem>
+                      <GridItem  >
+                      <Box >
+                      <MenuRoot >
+                      
+                        <Flex direction='column' align='end' >
+                        <MenuTrigger asChild >         
+                          <BiChevronDown />                       
+                        </MenuTrigger>
+                        <MenuContent position='relative' left={0} top={2} w={`{200}%`}>
+                          <MenuItem value='new'>Option 1</MenuItem>
+                          <MenuItem value='newt'>Option 2</MenuItem>
+                        </MenuContent>
+                        </Flex>
+                        
+                      </MenuRoot>
+                      </Box>
+                      </GridItem>
+                    </Grid>
+                    
+                  </Box>
+                  <Box >
+                    
+                    <Grid templateColumns={'repeat(2, 1fr)'}>
+                      <GridItem >
+                      <HStack>
+                        <input type='checkbox' />
+                        <Text>Accessories</Text>
+                      </HStack>
+                      </GridItem>
+                      <GridItem  >
+                      <Box >
+                      <MenuRoot >
+                      
+                        <Flex direction='column' align='end' >
+                        <MenuTrigger asChild >         
+                          <BiChevronDown />                       
+                        </MenuTrigger>
+                        <MenuContent position='relative' left={0} top={2} w={`{200}%`}>
+                          <MenuItem value='new'>Option 1</MenuItem>
+                          <MenuItem value='newt'>Option 2</MenuItem>
+                        </MenuContent>
+                        </Flex>
+                        
+                      </MenuRoot>
+                      </Box>
+                      </GridItem>
+                    </Grid>
+                    
+                  </Box>
+                  <Box >
+                    
+                    <Grid templateColumns={'repeat(2, 1fr)'}>
+                      <GridItem >
+                      <HStack>
+                        <input type='checkbox' />
+                        <Text>Accessories</Text>
+                      </HStack>
+                      </GridItem>
+                      <GridItem  >
+                      <Box >
+                      <MenuRoot >
+                      
+                        <Flex direction='column' align='end' >
+                        <MenuTrigger asChild >         
+                          <BiChevronDown />                       
+                        </MenuTrigger>
+                        <MenuContent position='relative' left={0} top={2} w={`{200}%`}>
+                          <MenuItem value='new'>Option 1</MenuItem>
+                          <MenuItem value='newt'>Option 2</MenuItem>
+                        </MenuContent>
+                        </Flex>
+                        
+                      </MenuRoot>
+                      </Box>
+                      </GridItem>
+                    </Grid>
+                    
                   </Box>
                   
                 </Flex>
