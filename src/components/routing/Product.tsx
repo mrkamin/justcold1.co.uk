@@ -1,4 +1,4 @@
-import { Grid, GridItem, Text } from '@chakra-ui/react'
+import { Grid, GridItem } from '@chakra-ui/react'
 import Catagories from '../products/Catagories'
 import Shop from '../products/Shop'
 

@@ -1,6 +1,5 @@
-import { Box, Flex, Grid, GridItem, HStack,  MenuContent, MenuItem, MenuRoot, MenuTrigger, Text } from '@chakra-ui/react'
-import { BiChevronDown } from 'react-icons/bi'
-import { RxDividerHorizontal } from 'react-icons/rx'
+import { Box, Flex, Grid, GridItem, HStack,  MenuContent, MenuRoot, MenuTrigger, Text } from '@chakra-ui/react'
+import { BiChevronDown } from 'react-icons/bi';
 
 const Catagories = () => {
   return (
@@ -10,65 +9,58 @@ const Catagories = () => {
           <Box>
             <Flex direction='column' gap={2}>
               <Box>
-              <Text>CATEGORIES</Text>
+                <Text>CATEGORIES</Text>
               </Box>
               <Box>
                 <Flex direction='column' gap={2}>
                   <Box >
-                    
                     <Grid templateColumns={'repeat(3, 1fr)'}>
                       <GridItem colSpan={2}>
-                      <HStack>
+                       <HStack>
                         <input type='checkbox' />
                         <Text>Accessories</Text>
-                      </HStack>
+                       </HStack>
                       </GridItem>
                       <GridItem colSpan={1} >
-                      <Box >
-                      <MenuRoot >
-                      
-                        <Flex direction='column' align='end' >
-                        <MenuTrigger asChild >         
-                          <BiChevronDown />                       
-                        </MenuTrigger>
-                        <MenuContent position='relative' left={0} top={2} w={`{300}%`}>
-                        <HStack>
-                        <input type='checkbox' />
-                        <Text>Ceiling Suspension</Text>
-                      </HStack>
-                      <HStack>
-                        <input type='checkbox' />
-                        <Text>Floor Mounting Blo...</Text>
-                      </HStack>
-                      <HStack>
-                        <input type='checkbox' />
-                        <Text>Pressure Relief Val...</Text>
-                      </HStack>
-                      <HStack>
-                        <input type='checkbox' />
-                        <Text>PVC SKirting</Text>
-                      </HStack>
-                        </MenuContent>
-                        </Flex>
-                        
-                      </MenuRoot>
-                      </Box>
+                        <Box >
+                         <MenuRoot >
+                           <Flex direction='column' align='end' >
+                             <MenuTrigger asChild >         
+                              <BiChevronDown />                       
+                             </MenuTrigger>
+                             <MenuContent position='relative' left={0} top={2} w={`{300}%`}>
+                               <HStack>
+                                 <input type='checkbox' />
+                                 <Text>Ceiling Suspension</Text>
+                               </HStack>
+                               <HStack>
+                                 <input type='checkbox' />
+                                 <Text>Floor Mounting Blo...</Text>
+                               </HStack>
+                               <HStack>
+                                 <input type='checkbox' />
+                                 <Text>Pressure Relief Val...</Text>
+                               </HStack>
+                               <HStack>
+                                 <input type='checkbox' />
+                                 <Text>PVC SKirting</Text>
+                               </HStack>
+                             </MenuContent>
+                           </Flex>  
+                         </MenuRoot>
+                       </Box>
                       </GridItem>
-                    </Grid>
-                    
+                    </Grid> 
                   </Box>
                   <Box >
-                    
                     <Grid templateColumns={'repeat(3, 1fr)'}>
                       <GridItem colSpan={2}>
-                      <HStack>
+                       <HStack>
                         <input type='checkbox' />
                         <Text>Channel Arm and Brac.....</Text>
-                      </HStack>
+                       </HStack>
                       </GridItem>
-                     
                     </Grid>
-                    
                   </Box>
                   <Box >
                     
@@ -181,21 +173,13 @@ const Catagories = () => {
                       </Box>
                       </GridItem>
                     </Grid>
-                    
                   </Box>
-                  
                 </Flex>
               </Box>
             </Flex>
             
           </Box>
-          <Box>
-            
-          </Box>
         </Flex>
-        <Box>
-       
-        </Box>
       </Box>
       <Box>
         <Text>Box TWO</Text>
