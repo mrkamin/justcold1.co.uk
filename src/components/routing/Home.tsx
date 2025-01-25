@@ -55,9 +55,7 @@ const Home = () => {
       <GridItem>
         <BannerHorezental />
       </GridItem>
-      <GridItem>
-        <Footer />
-      </GridItem>
+      
       
     </Grid>
   )
