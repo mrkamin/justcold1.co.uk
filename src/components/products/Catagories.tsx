@@ -1,9 +1,10 @@
-import { Box, Button, Flex, Grid, GridItem, HStack,  MenuContent, MenuRoot, MenuTrigger, Text } from '@chakra-ui/react'
+import { Box, Button, Flex, Grid, GridItem, HStack,  MenuContent, MenuRoot, MenuTrigger, Slider, Text } from '@chakra-ui/react'
 import { BiChevronDown } from 'react-icons/bi';
+import ImageSlider from '../home/ImageSlider';
 
 const Catagories = () => {
   return (
-    <Flex direction='column'  >
+    <Flex direction='column' gap={10} >
       <Box divideX='20px' borderWidth={1} padding={5} borderRadius={5} >
         <Flex direction='column' gap={5}>
           <Box>
@@ -178,11 +179,32 @@ const Catagories = () => {
           </Box>
         </Flex>
       </Box>
-      <Box>
-        <Text>Box TWO</Text>
+      <Box borderWidth={1} padding={5} borderRadius={5}>
+        <Flex direction='column' gap={5}>
+          <Box>
+            <Text>SPECIAL PRODUCTS</Text>
+            <hr />
+          </Box>
+          <Box>
+            <Text>
+              Image Slider  
+            </Text> 
+          </Box>  
+        </Flex>
       </Box>
-      <Box>
-        <Text>Box Three</Text>
+      <Box borderWidth={1} padding={5} borderRadius={5}>
+        <Flex direction='column' gap={5}>
+          <Box>
+            <Text>POPULAR TAGS</Text>
+            <hr />
+          </Box>
+          <Box>
+            <Text>ALMINIUM</Text>
+            <Text>ALMINIUM</Text>
+            <Text>ALMINIUM</Text>
+            <Text>ALMINIUM</Text>
+          </Box>
+        </Flex>
       </Box>
     </Flex>
   )
