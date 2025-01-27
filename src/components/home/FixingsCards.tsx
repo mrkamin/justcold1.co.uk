@@ -1,4 +1,4 @@
-import { Box, Button, Flex, IconButton, Image, Text } from '@chakra-ui/react'
+import { Box, Flex, IconButton, Image, Text } from '@chakra-ui/react'
 import ImageOne from '../assets/white aluminium steel dome.jpeg'
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
 
