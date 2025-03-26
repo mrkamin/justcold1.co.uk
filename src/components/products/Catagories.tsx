@@ -1,6 +1,5 @@
 import { Box, Button, Flex, Grid, GridItem, HStack,  MenuContent, MenuRoot, MenuTrigger, Slider, Text } from '@chakra-ui/react'
 import { BiChevronDown } from 'react-icons/bi';
-import ImageSlider from '../home/ImageSlider';
 
 const Catagories = () => {
   return (
@@ -29,7 +28,7 @@ const Catagories = () => {
                              <MenuTrigger asChild >         
                               <BiChevronDown />                       
                              </MenuTrigger>
-                             <MenuContent position='relative' left={0} top={2} w={`{300}%`}>
+                             <MenuContent position='relative' left={0} top={2} w={`{290}%`}>
                                <HStack>
                                  <input type='checkbox' />
                                  <Text>Ceiling Suspension</Text>
@@ -78,7 +77,7 @@ const Catagories = () => {
                               <MenuTrigger asChild >         
                                 <BiChevronDown />                       
                               </MenuTrigger>
-                              <MenuContent position='relative' left={0} top={2} w={`{300}%`}>
+                              <MenuContent position='relative' left={0} top={2} w={`{290}%`}>
                                 <HStack>
                                   <input type='checkbox' />
                                   <Text>Checker Plate</Text>
@@ -117,7 +116,7 @@ const Catagories = () => {
                               <MenuTrigger asChild >         
                                 <BiChevronDown />                       
                               </MenuTrigger>
-                              <MenuContent position='relative' left={0} top={2} w={`{300}%`}>
+                              <MenuContent position='relative' left={0} top={2} w={`{290}%`}>
                                 <HStack>
                                   <input type='checkbox' />
                                   <Text>Chiller Hinged Doors</Text>
@@ -148,7 +147,7 @@ const Catagories = () => {
                               <MenuTrigger asChild >         
                                 <BiChevronDown />                       
                              </MenuTrigger>
-                             <MenuContent position='relative' left={0} top={2} w={`{300}%`}>
+                             <MenuContent position='relative' left={0} top={2} w={`{290}%`}>
                                <HStack>
                                 <input type='checkbox' />
                                 <Text>Chiller Sliding Door</Text>
@@ -186,9 +185,7 @@ const Catagories = () => {
             <hr />
           </Box>
           <Box>
-            <Text>
-              Image Slider  
-            </Text> 
+          
           </Box>  
         </Flex>
       </Box>
